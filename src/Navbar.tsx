@@ -66,7 +66,10 @@ const Navbar = () => {
           Skills
         </button> */}
 
-        <button className="border-x  font-bold  text-sm cursor-pointer uppercase bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0rem_0.5rem_#9333ea] hover:text-purple-600 transition ">
+        <button
+          onClick={() => navigate("parking")}
+          className="border-x  font-bold  text-sm cursor-pointer uppercase bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0rem_0.5rem_#9333ea] hover:text-purple-600 transition "
+        >
           Find a parking spot
         </button>
         <button className="border-x  font-bold  text-sm cursor-pointer uppercase bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0rem_0.5rem_#9333ea] hover:text-purple-600 transition ">
@@ -80,13 +83,19 @@ const Navbar = () => {
         </button>
         <button
           onClick={() => navigate("signup")}
-          className="border-l  font-bold  text-sm cursor-pointer uppercase bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0rem_0.5rem_#9333ea] transition"
+          className="border-x  font-bold  text-sm cursor-pointer uppercase bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0rem_0.5rem_#9333ea] transition"
         >
           Sign up
         </button>
         {/* <button className="relative  bg-white isolation-auto z-10 border-x before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full hover:text-white before:-right-full before:hover:right-0 before:rounded-full before:bg-purple-600 before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 inline-flex items-center justify-center px-4 py-3  text-black  shadow-sm gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none">
           Button
         </button> */}
+        <label className="switch m-7">
+          <p className="text-xs font-bold">LIGHT MODE</p>
+          <input className="peer hidden" type="checkbox" />
+          <span className="slider absolute h-5 w-5 translate-x-0.5 translate-y-0.5 border-2 border-black bg-purple-600 shadow-[inset_2px_3px_2px] duration-700 peer-checked:translate-x-[1.6rem] peer-checked:border-gray-200 peer-checked:bg-white peer-checked:shadow-[inset_-2px_-2px_3px]"></span>
+          <div className="h-6 w-12  border-2 border-black shadow-[2px_3px_2px] duration-700 peer-checked:bg-purple-600"></div>
+        </label>
       </div>
     </div>
   );
