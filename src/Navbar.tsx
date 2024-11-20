@@ -67,7 +67,10 @@ const Navbar = () => {
         </button> */}
 
         <button className="border-x  font-bold  text-sm cursor-pointer uppercase bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0rem_0.5rem_#9333ea] hover:text-purple-600 transition ">
-          Hover me!
+          Find a parking spot
+        </button>
+        <button className="border-x  font-bold  text-sm cursor-pointer uppercase bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0rem_0.5rem_#9333ea] hover:text-purple-600 transition ">
+          List your parking
         </button>
         <button
           onClick={() => navigate("login")}
@@ -75,11 +78,11 @@ const Navbar = () => {
         >
           Login
         </button>
-        <button className="border-x  font-bold  text-sm cursor-pointer uppercase bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0rem_0.5rem_#9333ea] hover:text-purple-600 transition ">
-          SignUp to Park
-        </button>
-        <button className="border-l  font-bold  text-sm cursor-pointer uppercase bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0rem_0.5rem_#9333ea] transition">
-          Become a parking lessor
+        <button
+          onClick={() => navigate("signup")}
+          className="border-l  font-bold  text-sm cursor-pointer uppercase bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0rem_0.5rem_#9333ea] transition"
+        >
+          Sign up
         </button>
         {/* <button className="relative  bg-white isolation-auto z-10 border-x before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full hover:text-white before:-right-full before:hover:right-0 before:rounded-full before:bg-purple-600 before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 inline-flex items-center justify-center px-4 py-3  text-black  shadow-sm gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none">
           Button

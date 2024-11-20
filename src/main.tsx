@@ -4,6 +4,7 @@ import "./index.css";
 import Navbar from "./Navbar";
 import LandingPage from "./LandingPage";
 import Login from "./Login";
+import SignUp from "./SignUp";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 createRoot(document.getElementById("root")!).render(
@@ -12,6 +13,7 @@ createRoot(document.getElementById("root")!).render(
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>

@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 const LandingPage = () => {
   return (
     <div>
@@ -80,7 +81,7 @@ const LandingPage = () => {
             </div>
           </div>
           <button className="cursor-pointer uppercase border-2 h-14   bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#6b21a8,-0.5rem_-0.5rem_#c084fc] transition">
-            Sign up to Park
+            Find Parking Spot
           </button>
         </div>
         <img
@@ -149,7 +150,7 @@ const LandingPage = () => {
             </div>
           </div>
           <button className="cursor-pointer uppercase border-2 h-14   bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#6b21a8,-0.5rem_-0.5rem_#c084fc] transition">
-            Sign up as a Parking Lessor
+            List your parking
           </button>
         </div>
         <img
@@ -158,6 +159,8 @@ const LandingPage = () => {
           alt=""
         />
       </div>
+
+      <Footer />
     </div>
   );
 };
