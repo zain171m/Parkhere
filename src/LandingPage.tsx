@@ -2,25 +2,25 @@ import Footer from "./Footer";
 const LandingPage = () => {
   return (
     <div>
-      <div className="flex flex-row px-20 py-20">
+      <div className="flex flex-row flex-wrap-reverse lg:flex-nowrap xl:px-20 xl:py-20 px-4 py-4 ">
         <img
-          className="w-1/2"
+          className="lg:w-1/2 w-full"
           src="https://www.neighbor.com/storage-blog/wp-content/uploads/2024/05/AdobeStock_391893703-1024x576.jpeg"
           alt=""
         />
-        <div className="px-32 py-24">
-          <h1 className="text-7xl font-semibold">Let's park</h1>
+        <div className="xl:px-32 xl:py-24 px-5 py-4">
+          <h1 className="lg:text-7xl text-5xl font-semibold">Let's park</h1>
           <div className="flex flex-row mt-10 gap-4">
-            <button className="cursor-pointer uppercase border-white h-14 text-white  bg-purple-600 px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#6b21a8,-0.5rem_-0.5rem_#c084fc] transition">
+            <button className="cursor-pointer lg:text-base text-sm uppercase border-white h-14 text-white  bg-purple-600 px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#6b21a8,-0.5rem_-0.5rem_#c084fc] transition">
               Sign up to Park
             </button>
-            <button className="cursor-pointer uppercase border-2 h-14   bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#6b21a8,-0.5rem_-0.5rem_#c084fc] transition">
+            <button className="cursor-pointer lg:text-base text-sm uppercase border-2 h-14   bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#6b21a8,-0.5rem_-0.5rem_#c084fc] transition">
               Become a Parking Lessor
             </button>
           </div>
         </div>
       </div>
-      <div className="flex flex-row bg-purple-50 px-60 py-20">
+      <div className="flex flex-row flex-wrap-reverse lg:flex-nowrap bg-purple-50 xl:px-60 xl:py-20 px-4 py-2">
         <div className="flex flex-col pr-28">
           <p className="text-base font-bold">PARK YOUR VEHICAL</p>
           <h1 className="text-4xl font-semibold py-2">
@@ -85,12 +85,12 @@ const LandingPage = () => {
           </button>
         </div>
         <img
-          className="w-2/5"
+          className="lg:w-2/5 md:w-1/2 w-full"
           src="https://images.ctfassets.net/q8mvene1wzq4/2qig3wGIPssGl5C9tS0Lrt/f68bb064f872385abc6e95606cb0794e/home_pinkpaint_driver.jpg?w=1500&q=60&fm=webp"
           alt=""
         />
       </div>
-      <div className="flex flex-row px-60 py-20">
+      <div className="flex flex-row flex-wrap-reverse lg:flex-nowrap xl:px-20 xl:py-20 px-4 py-4 ">
         <div className="flex flex-col pr-28">
           <p className="text-base font-bold">Rent your Parking Space</p>
           <h1 className="text-4xl font-semibold py-2">
@@ -154,7 +154,7 @@ const LandingPage = () => {
           </button>
         </div>
         <img
-          className="w-2/5"
+          className="lg:w-2/5 md:w-1/2 w-full"
           src="https://inspiredclosetsmediafiles.s3.amazonaws.com/wp-content/uploads/2023/07/23095513/garage_stall.webp"
           alt=""
         />
