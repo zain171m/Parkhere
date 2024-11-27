@@ -2,6 +2,16 @@ import Footer from "./Footer";
 const LandingPage = () => {
   return (
     <div>
+      <div className="overflow-hidden">
+        <div className="flex items-center ">
+          <div className="px-4 py-2  bg-black text-white w-full ">
+            <p className="animate-marquee font-bold text-nowrap">
+              We're building our MVP! The product is in development and not yet
+              functional, but stay tuned – launching soon!
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="flex flex-row flex-wrap-reverse lg:flex-nowrap xl:px-20 xl:py-20 px-4 py-4 ">
         <img
           className="lg:w-1/2 w-full"
