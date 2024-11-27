@@ -1,23 +1,16 @@
+import { Link } from "react-router-dom";
 import Footer from "./Footer";
 const LandingPage = () => {
   return (
     <div>
-      <div className="overflow-hidden">
-        <div className="flex items-center ">
-          <div className="px-4 py-2  bg-black text-white w-full ">
-            <p className="animate-marquee font-bold text-nowrap">
-              We're building our MVP! The product is in development and not yet
-              functional, but stay tuned – launching soon!
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="flex flex-row flex-wrap-reverse lg:flex-nowrap xl:px-20 xl:py-20 px-4 py-4 ">
+      <div className="overflow-hidden"></div>
+      <div className="flex flex-row flex-wrap-reverse lg:flex-nowrap xl:px-20 xl:py-20 px-4 py-4">
         <img
           className="lg:w-1/2 w-full"
           src="https://www.neighbor.com/storage-blog/wp-content/uploads/2024/05/AdobeStock_391893703-1024x576.jpeg"
           alt=""
         />
+
         <div className="xl:px-32 xl:py-24 px-5 py-4">
           <h1 className="lg:text-7xl text-5xl font-semibold">Let's park</h1>
           <div className="flex flex-row mt-10 gap-4">
